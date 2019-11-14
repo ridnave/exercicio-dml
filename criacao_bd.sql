@@ -13,7 +13,7 @@ CREATE TABLE `empregado`(
     nome varchar(30),
     endereco varchar(50),
     salario numeric(6,2),
-    surpevisor int(10),
+    supervisor int(10),
     depto int(8),
     PRIMARY KEY(matricula),
     FOREIGN KEY (surpevisor) REFERENCES empregado (matricula)
