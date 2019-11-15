@@ -12,11 +12,11 @@ CREATE TABLE `empregado`(
 	matricula int(10),
     nome varchar(30),
     endereco varchar(50),
-    salario numeric(6,2),
+    salario numeric(7,2),
     supervisor int(10),
     depto int(8),
     PRIMARY KEY(matricula),
-    FOREIGN KEY (surpevisor) REFERENCES empregado (matricula)
+    FOREIGN KEY (supervisor) REFERENCES empregado (matricula)
 );
 
 CREATE TABLE `departamento`(
