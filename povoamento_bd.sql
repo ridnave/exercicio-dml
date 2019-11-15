@@ -29,7 +29,7 @@ INSERT INTO alocacao (matric, codigop, horas) VALUES (0000000006, 000003, 20);
 INSERT INTO alocacao (matric, codigop, horas) VALUES (0000000005, 000002, 35);
 
 INSERT INTO dependente (coddepend, matricula, nome, sexo) VALUES (000000, 0000000010, "Juliana Mendes", "f");
-INSERT INTO dependente (coddepend, matricula, nome, sexo) VALUES (000001, 0000000011, "Carlos Mendes", "m")
-INSERT INTO dependente (coddepend, matricula, nome, sexo) VALUES (000002, 0000000012, "Júlio Alessandro", "m")
-INSERT INTO dependente (coddepend, matricula, nome, sexo) VALUES (000003, 0000000013, "Marcio Filho", "m")
-INSERT INTO dependente (coddepend, matricula, nome, sexo) VALUES (000004, 0000000014, "Sandy Porto", "f")
+INSERT INTO dependente (coddepend, matricula, nome, sexo) VALUES (000001, 0000000011, "Carlos Mendes", "m");
+INSERT INTO dependente (coddepend, matricula, nome, sexo) VALUES (000002, 0000000012, "Júlio Alessandro", "m");
+INSERT INTO dependente (coddepend, matricula, nome, sexo) VALUES (000003, 0000000013, "Marcio Filho", "m");
+INSERT INTO dependente (coddepend, matricula, nome, sexo) VALUES (000004, 0000000014, "Sandy Porto", "f");
